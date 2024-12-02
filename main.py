@@ -71,29 +71,3 @@ def write_json(pass_user, hashed, filename='password.json'):
     
 print(write_json(pass_user, hashed))
 
-# ecriture du mot de passe sur fichier json en manuel
-# def write_json():
-#     datadico = {
-#     "mot de passe": "enter password",
-#     "hash SHA 256": "enter hash"
-#     }
-#     with open('password.json', 'w') as file:
-#         json.dump(datadico, file, indent=4)
-#         return "ecriture du mot de passe dans un fichier json"
-# print(write_json())
-
-# # lecture du fichier json en manuel
-# def read_json():
-#     with open('password.json', 'r') as file:
-#         data_loaded = json.load(file)
-#         print("Contenu du fichier json:  ")
-#         print(data_loaded)
-# (read_json())
-
-# lecture et convertion de la chaine json en python en manuel
-# with open('password.json', 'r', encoding='utf-8') as file:
-#     json_string = file.read()
-#     data = json.loads(json_string)
-# print("Contenu du fichier json",data)
-
-
